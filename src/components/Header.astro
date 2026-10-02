@@ -12,7 +12,7 @@ const about = path === '/about' ? 'page' : undefined;
 
 <header class="header">
   <div class="container inner">
-    <a class="logo" href="/">{site.name}</a>
+    <a class="logo" href="/">{site.name} Photography</a>
     <nav class="nav" aria-label="Main">
       <a href="/" aria-current={work}>Work</a>
       <a href="/about" aria-current={about}>About</a>
@@ -35,20 +35,26 @@ const about = path === '/about' ? 'page' : undefined;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1.5rem;
+    gap: 0.75rem;
     height: var(--header-height);
   }
 
   .logo {
+    font-size: clamp(0.875rem, 4.4vw, 1.0625rem);
     font-weight: 600;
     letter-spacing: -0.01em;
     text-decoration: none;
     white-space: nowrap;
+    /* very narrow phones: shorten the logo rather than push the nav off screen */
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .nav {
+    flex-shrink: 0;
     display: flex;
-    gap: clamp(1.25rem, 4vw, 2rem);
+    gap: clamp(1rem, 4vw, 2rem);
     font-size: 0.9375rem;
   }
 

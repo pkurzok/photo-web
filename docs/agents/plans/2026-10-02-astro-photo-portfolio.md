@@ -485,6 +485,9 @@ During implementation, document user feedback, problems, and decisions here.
   `site.json` (`masthead`), rendered by `src/components/Masthead.astro` below the sticky
   header on `/` only. Not replicated: Adobe's fixed-position effect (content scrolling
   over the image).
+- **Header logo (2026-10-02, on request):** reads "Peter Kurzok Photography" as on the
+  Adobe site (the plan's end state had "Peter Kurzok"). Logo font and header gaps shrink
+  slightly on narrow phones so it fits next to "Work · About".
 
 ## References
 
