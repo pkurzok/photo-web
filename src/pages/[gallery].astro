@@ -1,0 +1,66 @@
+---
+import { getImage } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import JustifiedGrid from '../components/JustifiedGrid.astro';
+import Lightbox from '../components/Lightbox.astro';
+import site from '../data/site.json';
+
+export async function getStaticPaths() {
+  const galleries = await getCollection('galleries');
+  return galleries.map((gallery) => ({ params: { gallery: gallery.id }, props: { gallery } }));
+}
+
+const { title, images } = Astro.props.gallery.data;
+
+// `width` caps the default rendition at the source size; without it Astro would also
+// emit a full-size WebP for the few 3840 px originals.
+const rendition = (src: ImageMetadata, widths: number[]) =>
+  getImage({
+    src,
+    widths,
+    width: Math.min(widths.at(-1)!, src.width),
+    format: 'webp',
+    quality: 82,
+  });
+
+const tiles = await Promise.all(
+  images.map(async ({ src, alt }) => ({
+    thumb: await rendition(src, [480, 960, 1440]),
+    large: await rendition(src, [1440, 1920, 2560]),
+    width: src.width,
+    height: src.height,
+    alt,
+  })),
+);
+---
+
+<Base
+  title={`${site.name} – ${title}`}
+  description={`${title} photography by ${site.name}`}
+>
+  <div class="container">
+    <h1 class="title">{title}</h1>
+  </div>
+  <div class="container tight">
+    <JustifiedGrid tiles={tiles} />
+  </div>
+  <Lightbox />
+</Base>
+
+<style>
+  .title {
+    padding-block: clamp(1.25rem, 3vw, 2rem);
+    font-size: clamp(1rem, 1.6vw, 1.375rem);
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  /* phones: let the grid run almost edge to edge */
+  @media (max-width: 640px) {
+    .tight {
+      --gutter: 4px;
+    }
+  }
+</style>

@@ -1,0 +1,492 @@
+{
+  "apple-touch-icon.png": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/e1cd7597-e47e-4fcb-a553-9be2987ee28f_carw_1x1x180.png?h=70e98364c5808ba952058447d531ed51",
+    "rendition": 180,
+    "bytes": 5278,
+    "width": 180,
+    "height": 180
+  },
+  "architecture/01.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/83d15dd6-143c-40ef-8f1c-47551e12b63d_rw_1200.jpeg?h=b1a593642479c52a79d2214d233a8265",
+    "rendition": 1200,
+    "bytes": 824572,
+    "width": 853,
+    "height": 1280
+  },
+  "architecture/02.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/b23d32d0-0fba-404b-ba30-2fbbf9894602_rw_1920.jpeg?h=5e05ca71f95fd23322a902637420b95b",
+    "rendition": 1920,
+    "bytes": 474706,
+    "width": 1280,
+    "height": 852
+  },
+  "architecture/03.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/72c44a71-f1b3-4ca5-970a-1b56b8d997c6_rw_1200.jpeg?h=8c1884fa9f77599e571bac3e16e573e7",
+    "rendition": 1200,
+    "bytes": 503827,
+    "width": 852,
+    "height": 1280
+  },
+  "architecture/04.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/9af1f964-5979-483d-8683-8f77b1ebc373_rw_1200.jpeg?h=e09f025c63ec15700b28719cdbaf95d4",
+    "rendition": 1200,
+    "bytes": 415598,
+    "width": 857,
+    "height": 1280
+  },
+  "architecture/05.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/45ece71f-b3b3-4d5b-9148-33d23f5dbe28_rw_1920.jpeg?h=b9c6a0d8d0251e85922b02d2b9d40954",
+    "rendition": 1920,
+    "bytes": 286625,
+    "width": 1280,
+    "height": 740
+  },
+  "architecture/06.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/4bc7f684-ba7b-477e-98a7-fffeb10cb7c1_rw_1920.jpeg?h=20303a3f584535c7e9632a875d8d86d0",
+    "rendition": 1920,
+    "bytes": 189699,
+    "width": 1280,
+    "height": 852
+  },
+  "architecture/07.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/d23443bb-0037-4197-bf3d-a035cba98c3f_rw_1920.jpeg?h=9dee89329ff3ce4918d41ac051781ad5",
+    "rendition": 1920,
+    "bytes": 120797,
+    "width": 1280,
+    "height": 298
+  },
+  "architecture/08.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/f94a514c-9887-4fa0-897b-c4255ea20635_rw_1920.jpeg?h=88240bbfbce93bc856126efddc95465c",
+    "rendition": 1920,
+    "bytes": 291746,
+    "width": 1280,
+    "height": 852
+  },
+  "architecture/09.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/72ca4e07-f912-4514-82ab-29c3943f4d92_rw_600.jpeg?h=a3309b44a3ca5897c1e943c6af348e96",
+    "rendition": 600,
+    "bytes": 476931,
+    "width": 599,
+    "height": 1280
+  },
+  "architecture/10.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/8f76d057-5e6d-492d-97d1-e6df95a835f7_rw_1200.jpeg?h=0d336bf4f15e94ff4539f4ce5809eae0",
+    "rendition": 1200,
+    "bytes": 649285,
+    "width": 882,
+    "height": 1280
+  },
+  "architecture/11.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/51e62d76-3a09-47c5-ac9f-5a6afbd57ff5_rw_1920.jpeg?h=41607a3099aea39b5dbed8acc436e177",
+    "rendition": 1920,
+    "bytes": 628034,
+    "width": 1280,
+    "height": 842
+  },
+  "architecture/12.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/5e90ee19-5adb-43f5-8e87-b2835bfa7c65_rw_1200.jpeg?h=a56385a7b12d5ca17c4e8048e11ca571",
+    "rendition": 1200,
+    "bytes": 614249,
+    "width": 852,
+    "height": 1280
+  },
+  "architecture/13.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/1d8f83bf-dbfd-4c32-a477-cad44e9f0b13_rw_1200.jpeg?h=c4235a5a463eafe5f988a70e05edbc72",
+    "rendition": 1200,
+    "bytes": 405543,
+    "width": 845,
+    "height": 1280
+  },
+  "architecture/14.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/2dafd4f5-602b-4797-a952-7ecaf5399f14_rw_1920.jpeg?h=bc476a7bf6cc4433f68ddad3cce05607",
+    "rendition": 1920,
+    "bytes": 305380,
+    "width": 1280,
+    "height": 625
+  },
+  "architecture/15.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/a931da86-e45b-4b66-b4e4-e9749a90b6a1_rw_1200.jpeg?h=b8dea17dac5a47746e0839da5ce2e0ec",
+    "rendition": 1200,
+    "bytes": 700461,
+    "width": 852,
+    "height": 1280
+  },
+  "architecture/16.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/f6e810a2-9c6f-419c-8c8b-7ec7d5be6953_rw_1920.jpeg?h=cb63993579850311d35ba9b2d14122ad",
+    "rendition": 1920,
+    "bytes": 555754,
+    "width": 1280,
+    "height": 852
+  },
+  "architecture/cover.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/3636dff6-edb4-4419-a3bb-777b14f5c90d_rwc_0x296x882x689x882.jpg?h=0619087e4307dd7141d2228f2e7281a2",
+    "rendition": 882,
+    "bytes": 385061,
+    "width": 882,
+    "height": 689
+  },
+  "events/01.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/d508dabb-fdf7-4091-a7ca-887194567165_rw_1920.jpeg?h=1926154f14fab82d8506130277cab38d",
+    "rendition": 1920,
+    "bytes": 464001,
+    "width": 1280,
+    "height": 852
+  },
+  "events/02.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/38daead3-d01b-44ae-a974-d13581e89969_rw_1920.jpeg?h=2cdec5e872cac5eb37e005b1ca63ce84",
+    "rendition": 1920,
+    "bytes": 403487,
+    "width": 1280,
+    "height": 852
+  },
+  "events/03.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/11a7fde2-5141-417c-b724-f47a50d4333c_rw_1920.jpeg?h=390e60a9715f05b6e3d3e46af94a6d67",
+    "rendition": 1920,
+    "bytes": 480203,
+    "width": 1280,
+    "height": 852
+  },
+  "events/04.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/a26b3177-58d1-40dd-ac29-8b215740f8f8_rw_1920.jpeg?h=0c75ee2b5d7931c23244cf31080f30f0",
+    "rendition": 1920,
+    "bytes": 312640,
+    "width": 1280,
+    "height": 852
+  },
+  "events/05.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/2e7729da-d9d0-46bc-98e3-c981ae7077e7_rw_1920.jpeg?h=8a3cacee86487452e89fd4e305c00541",
+    "rendition": 1920,
+    "bytes": 502172,
+    "width": 1280,
+    "height": 852
+  },
+  "events/06.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/9874fa5f-61e3-4b38-9db0-58be20527e4a_rw_1200.jpeg?h=decd857c3fc21cb246a055c90c824ebd",
+    "rendition": 1200,
+    "bytes": 444986,
+    "width": 852,
+    "height": 1280
+  },
+  "events/07.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/62ccc4ce-3b35-48a2-be56-f7b4027ca6da_rw_1920.jpeg?h=2b5aee00b4876917feca312046804a93",
+    "rendition": 1920,
+    "bytes": 345155,
+    "width": 1280,
+    "height": 852
+  },
+  "events/08.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/edd36ccb-c698-4537-9402-29e2abb81c03_rw_1920.jpeg?h=965cd132f6767b97b5f09dfcc6deb08a",
+    "rendition": 1920,
+    "bytes": 312007,
+    "width": 1280,
+    "height": 852
+  },
+  "events/09.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/3f627e11-ef29-4b9b-ba16-ba4be3020c57_rw_1920.jpeg?h=e050e8ee3871ec95338f0498aa846a4a",
+    "rendition": 1920,
+    "bytes": 250742,
+    "width": 1280,
+    "height": 852
+  },
+  "events/10.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/7793bc26-88af-46fd-895b-4e7da6da550d_rw_1920.jpeg?h=2d74d946115d36d2c913e3667094fd78",
+    "rendition": 1920,
+    "bytes": 344685,
+    "width": 1280,
+    "height": 1278
+  },
+  "events/11.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/05489f0a-5787-48ea-b5f3-6afc8ba2a053_rw_1920.jpeg?h=b87e7421a2c4f50b5468403808c6cf01",
+    "rendition": 1920,
+    "bytes": 276549,
+    "width": 1280,
+    "height": 852
+  },
+  "events/12.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/0f01682c-f1c5-4d20-82d5-6d0c320379a7_rw_1920.jpeg?h=fb187a32e3ffc33d2911d4de1f42db22",
+    "rendition": 1920,
+    "bytes": 712600,
+    "width": 1280,
+    "height": 1278
+  },
+  "events/13.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/2ee0cacd-6115-4acf-bc59-63cb99332240_rw_1920.jpeg?h=3a7d8ca97d406fd808fb495821236bc6",
+    "rendition": 1920,
+    "bytes": 529003,
+    "width": 1280,
+    "height": 852
+  },
+  "events/14.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/dfe4435e-b5af-4e26-ac07-e449b1b656ae_rw_1920.jpeg?h=799aa7272702f2917ff78a7db6efdd7e",
+    "rendition": 1920,
+    "bytes": 257334,
+    "width": 1280,
+    "height": 852
+  },
+  "events/cover.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/eb755cb2-19fb-4c4b-b7f5-664b3234be45_rwc_183x0x1089x852x1280.jpg?h=48ccfa5156b8f2898f8832a04d30ac8d",
+    "rendition": 1280,
+    "bytes": 391574,
+    "width": 1089,
+    "height": 852
+  },
+  "favicon.png": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/094f1db0-9c22-4be2-939d-d9382257969e_carw_1x1x32.png?h=70c670c3b848af3d3ede4aabbfc9a4c3",
+    "rendition": 32,
+    "bytes": 1501,
+    "width": 32,
+    "height": 32
+  },
+  "headshots/01.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/5bf7cc97-d5a7-44dd-8eea-bdbd426c1b24_rw_3840.jpg?h=8a4d2fd27929126ae574e92ef223973d",
+    "rendition": 3840,
+    "bytes": 1732773,
+    "width": 3840,
+    "height": 2555
+  },
+  "headshots/02.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/7743238b-33eb-4243-8aa1-5d2852427f21_rw_1920.jpeg?h=c1caec901210fb662bc81673b63a4f32",
+    "rendition": 1920,
+    "bytes": 191270,
+    "width": 1280,
+    "height": 852
+  },
+  "headshots/03.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/4bb8bce9-147b-40d6-95e9-feade1169aac_rw_1920.jpeg?h=0747a2d0182dcd9e52046154f8948494",
+    "rendition": 1920,
+    "bytes": 163450,
+    "width": 1280,
+    "height": 852
+  },
+  "headshots/04.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/1e8d43bb-fc10-4bcd-bfe6-b09802308a22_rw_1920.jpg?h=7dfa3f2cb49d5e160e126188ab2eb686",
+    "rendition": 1920,
+    "bytes": 474775,
+    "width": 1920,
+    "height": 1278
+  },
+  "headshots/05.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/85fce274-a725-4245-ad18-37065da70bc2_rw_1920.jpeg?h=583710754ba409c23da92e10bcbc0cc9",
+    "rendition": 1920,
+    "bytes": 168964,
+    "width": 1280,
+    "height": 852
+  },
+  "headshots/06.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/6283cfd8-ff90-4d1b-bda6-338525a6a1db_rw_1920.jpeg?h=5d8ce57ab99c526c4b095138a323f3a6",
+    "rendition": 1920,
+    "bytes": 181615,
+    "width": 1280,
+    "height": 852
+  },
+  "headshots/07.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/80ed719a-b852-4dd3-8ce4-0d0f2f9c8ab9_rw_3840.jpg?h=5b92456775a401813eee274a96379aef",
+    "rendition": 3840,
+    "bytes": 1635227,
+    "width": 3840,
+    "height": 2555
+  },
+  "headshots/cover.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/7bbae326-fe99-46b5-a120-6e42abe94c8c_rwc_94x0x1089x852x1280.jpg?h=957cac8c32af64a94a3e651369bd4c88",
+    "rendition": 1280,
+    "bytes": 190003,
+    "width": 1089,
+    "height": 852
+  },
+  "landscapes/01.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/501584cc-07c8-4640-845b-2cde2ed90c1a_rw_3840.JPG?h=7d89352bb29bf157e871e44f7ac6393a",
+    "rendition": 3840,
+    "bytes": 8739607,
+    "width": 3840,
+    "height": 5838
+  },
+  "landscapes/02.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/5c52fae2-659f-4e8a-9c50-88fc24cebbc8_rw_3840.JPG?h=87ac5ee56d492493d1195fe290075c31",
+    "rendition": 3840,
+    "bytes": 7914887,
+    "width": 3840,
+    "height": 5771
+  },
+  "landscapes/03.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/a1c68155-62a5-40c0-83e8-6f591dcbc3ff_rw_1920.jpeg?h=53bc2e3425d4e4d5b89390e227d93f57",
+    "rendition": 1920,
+    "bytes": 444242,
+    "width": 1280,
+    "height": 852
+  },
+  "landscapes/04.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/f56ed57e-1a72-45d1-a212-fe8dbf52227c_rw_1200.jpeg?h=4d83281d44124aea52cb4341bb07d886",
+    "rendition": 1200,
+    "bytes": 121853,
+    "width": 852,
+    "height": 1280
+  },
+  "landscapes/05.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/427e9715-b0aa-4149-adc9-fead42542fc3_rw_1920.jpeg?h=04bae1aea1edc19249ede348769928f8",
+    "rendition": 1920,
+    "bytes": 370300,
+    "width": 1280,
+    "height": 850
+  },
+  "landscapes/06.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/8028585a-23a0-4449-acee-c325275a0d1d_rw_1200.jpeg?h=c609b90892f1a543d9c4097a7fbfc9e3",
+    "rendition": 1200,
+    "bytes": 151261,
+    "width": 854,
+    "height": 1280
+  },
+  "landscapes/07.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/284918cf-d3da-46d5-98ba-3b87002254b3_rw_1200.jpeg?h=0c9489ff1e09254dab66416fef380170",
+    "rendition": 1200,
+    "bytes": 703702,
+    "width": 789,
+    "height": 1280
+  },
+  "landscapes/08.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/4f1fa65b-a772-4adc-afde-863a7b7ee5d2_rw_1200.jpeg?h=09dc09d809e244f05c0103c9facb5320",
+    "rendition": 1200,
+    "bytes": 641061,
+    "width": 852,
+    "height": 1280
+  },
+  "landscapes/09.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/bbffb514-1d82-4f2e-bb5f-bdcdc79821e7_rw_1920.jpeg?h=0df365661a33c653d715a0ec45e2360a",
+    "rendition": 1920,
+    "bytes": 699128,
+    "width": 1280,
+    "height": 852
+  },
+  "landscapes/10.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/0fb9fe1b-1e93-4659-a2ee-a333e12bfad7_rw_1200.jpeg?h=8496a5cc5427ba7f1d8618ba8a379b3f",
+    "rendition": 1200,
+    "bytes": 255717,
+    "width": 853,
+    "height": 1280
+  },
+  "landscapes/11.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/742a8c60-2237-46c6-aec6-8ae6dbf7bc31_rw_1200.jpeg?h=8541a2deb2320a84a37cacba4d8e77bd",
+    "rendition": 1200,
+    "bytes": 81542,
+    "width": 768,
+    "height": 768
+  },
+  "landscapes/12.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/9cec0de8-5d69-432f-a599-9907ace43dca_rw_1920.jpeg?h=452c441f10b6f224cdedc66e61fe3e44",
+    "rendition": 1920,
+    "bytes": 464345,
+    "width": 1280,
+    "height": 960
+  },
+  "landscapes/13.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/89919b6c-27da-498e-9843-830cf8179918_rw_1920.jpeg?h=c7b63406359e2d22d8de8b5576e0894e",
+    "rendition": 1920,
+    "bytes": 482794,
+    "width": 1280,
+    "height": 960
+  },
+  "landscapes/14.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/9ab68593-e028-4726-82c6-8cc411e0587f_rw_1920.jpeg?h=6b7d13ed54b4a52ebdba8711736947a1",
+    "rendition": 1920,
+    "bytes": 543451,
+    "width": 1280,
+    "height": 960
+  },
+  "landscapes/15.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/59510ff9-1d43-4505-8f00-e0709916d739_rw_1920.jpeg?h=fb6bc96afbd6dbb4402c04df6ba87562",
+    "rendition": 1920,
+    "bytes": 437397,
+    "width": 1280,
+    "height": 846
+  },
+  "landscapes/16.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/1fc17fcf-656a-430b-8a3c-d3db3f4b5438_rw_1200.jpeg?h=a55b4d7a6ac36d410e40b137c3a6c5dc",
+    "rendition": 1200,
+    "bytes": 329677,
+    "width": 847,
+    "height": 1280
+  },
+  "landscapes/17.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/419af1df-ad08-43d6-a70c-1bc5679409dd_rw_1920.jpeg?h=b86a94f2015e1d22cc958fdad0775ea8",
+    "rendition": 1920,
+    "bytes": 309718,
+    "width": 1280,
+    "height": 691
+  },
+  "landscapes/18.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/e6dec131-f7b9-4bcc-8ccd-b7da7679039d_rw_1920.jpeg?h=e2a5bfc00a744ab72a4b9bb528492326",
+    "rendition": 1920,
+    "bytes": 254066,
+    "width": 1280,
+    "height": 851
+  },
+  "landscapes/19.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/19bf2a88-0ce0-41b9-bd3c-a40d191b37a5_rw_1920.jpeg?h=f9e7ee61497bac898e1c68b7295c9f48",
+    "rendition": 1920,
+    "bytes": 176787,
+    "width": 1280,
+    "height": 840
+  },
+  "landscapes/20.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/0ce1edcd-30ba-45ef-82a6-b410d8962754_rw_1920.jpeg?h=7b63739f305350812e2e76539fc07b1d",
+    "rendition": 1920,
+    "bytes": 180478,
+    "width": 1280,
+    "height": 556
+  },
+  "landscapes/21.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/d37edf06-f720-4313-b6a9-2564caff46da_rw_1920.jpeg?h=7f97a6af684334cbd9afbc895341567b",
+    "rendition": 1920,
+    "bytes": 266584,
+    "width": 1280,
+    "height": 709
+  },
+  "landscapes/22.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/67b4168d-40db-47bf-9a65-f01b69555abb_rw_1920.jpeg?h=122e6ab7cf70208ebc351de714d6a31a",
+    "rendition": 1920,
+    "bytes": 648950,
+    "width": 1280,
+    "height": 848
+  },
+  "landscapes/23.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/770f7b80-1d0b-4758-82cf-d7496dd97eb5_rw_1920.jpeg?h=14fa389e063502e2fc032f3f732d9c59",
+    "rendition": 1920,
+    "bytes": 474477,
+    "width": 1280,
+    "height": 847
+  },
+  "landscapes/24.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/d6a5d4e8-c7a4-4735-a866-0590b4d93c4f_rw_1920.jpeg?h=1f2b0fb18b619b070c341ff0ca051af1",
+    "rendition": 1920,
+    "bytes": 158686,
+    "width": 1275,
+    "height": 1280
+  },
+  "landscapes/25.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/53310d2a-3c2c-427d-841d-e1ea9f713568_rw_1920.jpeg?h=cfe96208a3b777b8f440021a405172e6",
+    "rendition": 1920,
+    "bytes": 216749,
+    "width": 1280,
+    "height": 550
+  },
+  "landscapes/26.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/08f358cd-ce47-417c-8e8c-732e7287c76f_rw_1920.jpeg?h=a5c9c620c20eeb3986df21ee4ceed01b",
+    "rendition": 1920,
+    "bytes": 543268,
+    "width": 1280,
+    "height": 852
+  },
+  "landscapes/cover.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/40d04151-5b42-426e-bf41-e730855ec16e_rwc_0x1204x3840x3002x3840.jpg?h=efbcaf6c1297de4126bed4cb7f4d991c",
+    "rendition": 3840,
+    "bytes": 4605047,
+    "width": 3840,
+    "height": 3002
+  },
+  "portrait.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/eff01046-ed82-4cc2-9dbc-ce5ca2f6414c.jpeg?h=fa8d990bc3671d92e82a2772d80b7782",
+    "rendition": null,
+    "bytes": 7713132,
+    "width": 3024,
+    "height": 4032
+  }
+}

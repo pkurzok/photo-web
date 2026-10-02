@@ -1,0 +1,66 @@
+---
+import { getCollection } from 'astro:content';
+import site from '../data/site.json';
+
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const galleryPaths = (await getCollection('galleries')).map((g) => `/${g.id}`);
+
+// "Work" is the home page and every gallery below it.
+const work = path === '/' ? 'page' : galleryPaths.includes(path) ? 'true' : undefined;
+const about = path === '/about' ? 'page' : undefined;
+---
+
+<header class="header">
+  <div class="container inner">
+    <a class="logo" href="/">{site.name}</a>
+    <nav class="nav" aria-label="Main">
+      <a href="/" aria-current={work}>Work</a>
+      <a href="/about" aria-current={about}>About</a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: color-mix(in srgb, var(--bg) 82%, transparent);
+    -webkit-backdrop-filter: saturate(180%) blur(16px);
+    backdrop-filter: saturate(180%) blur(16px);
+    border-bottom: 1px solid color-mix(in srgb, var(--border) 60%, transparent);
+  }
+
+  .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    height: var(--header-height);
+  }
+
+  .logo {
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .nav {
+    display: flex;
+    gap: clamp(1.25rem, 4vw, 2rem);
+    font-size: 0.9375rem;
+  }
+
+  .nav a {
+    color: var(--text-muted);
+    text-decoration: none;
+    padding-block: 0.5rem;
+  }
+
+  .nav a:hover,
+  .nav a:focus-visible,
+  .nav a[aria-current] {
+    color: var(--text);
+  }
+</style>

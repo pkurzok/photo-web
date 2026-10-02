@@ -1,0 +1,36 @@
+{
+  "title": "Headshots",
+  "order": 1,
+  "cover": "./cover.jpg",
+  "coverAlt": "Studio headshot of a man with tousled brown hair and glasses in a grey-blue jacket and red tie",
+  "images": [
+    {
+      "src": "./01.jpg",
+      "alt": "Studio headshot of a man with short dark hair, a full beard and glasses in a black suit and black tie"
+    },
+    {
+      "src": "./02.jpg",
+      "alt": "Studio headshot of a man with chin-length brown hair, a beard and glasses in a blue suit and navy tie"
+    },
+    {
+      "src": "./03.jpg",
+      "alt": "Studio headshot of a woman with long straight brown hair in a dark blazer and white blouse"
+    },
+    {
+      "src": "./04.jpg",
+      "alt": "Studio headshot of a smiling man with round glasses and a short beard in a navy suit and red tie"
+    },
+    {
+      "src": "./05.jpg",
+      "alt": "Studio headshot of a man with tousled brown hair and glasses in a grey-blue jacket and red tie"
+    },
+    {
+      "src": "./06.jpg",
+      "alt": "Studio headshot of a smiling man with short hair and a beard in a blue suit and grey tie"
+    },
+    {
+      "src": "./07.jpg",
+      "alt": "Studio headshot of a laughing man with glasses and a goatee in a dark suit, pink shirt and blue tie"
+    }
+  ]
+}

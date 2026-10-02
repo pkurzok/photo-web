@@ -1,0 +1,72 @@
+{
+  "title": "Architecture",
+  "order": 3,
+  "cover": "./cover.jpg",
+  "coverAlt": "Two storeys of dark oak bookshelves in the Long Room of Trinity College Library, Dublin",
+  "images": [
+    {
+      "src": "./01.jpg",
+      "alt": "Brick walls and roller shutters in a backyard covered in colourful graffiti"
+    },
+    {
+      "src": "./02.jpg",
+      "alt": "Frauenkirche in Dresden seen from the Neumarkt square with passers-by, under a sky of scattered clouds"
+    },
+    {
+      "src": "./03.jpg",
+      "alt": "Looking up at the sandstone dome of the Frauenkirche in Dresden"
+    },
+    {
+      "src": "./04.jpg",
+      "alt": "Looking up at a baroque clock tower with a blue and gold clock face, sun flaring past its edge"
+    },
+    {
+      "src": "./05.jpg",
+      "alt": "Road through the twin steel arches of a bridge, lit orange at blue hour"
+    },
+    {
+      "src": "./06.jpg",
+      "alt": "European Central Bank tower and the Frankfurt skyline across the Main at night, seen from a bridge walkway"
+    },
+    {
+      "src": "./07.jpg",
+      "alt": "Wide panorama of the Main in Frankfurt at dusk with the European Central Bank tower and arch bridges"
+    },
+    {
+      "src": "./08.jpg",
+      "alt": "European Central Bank tower and the Frankfurt skyline at sunset, reflected in the Main"
+    },
+    {
+      "src": "./09.jpg",
+      "alt": "Baroque church interior with a red and white stucco ceiling and a gilded high altar"
+    },
+    {
+      "src": "./10.jpg",
+      "alt": "Arched bays of old books and a row of marble busts in the Long Room of Trinity College Library, Dublin"
+    },
+    {
+      "src": "./11.jpg",
+      "alt": "Looking up at the barrel-vaulted wooden ceiling and upper gallery of the Long Room, Trinity College Library, Dublin"
+    },
+    {
+      "src": "./12.jpg",
+      "alt": "Red-brick warehouses of the Speicherstadt in Hamburg rising straight from a canal"
+    },
+    {
+      "src": "./13.jpg",
+      "alt": "Corner house with balconies and flower boxes on a cobbled street, low sun flaring behind it"
+    },
+    {
+      "src": "./14.jpg",
+      "alt": "Mont-Saint-Michel with its abbey above the tidal flats in warm evening light"
+    },
+    {
+      "src": "./15.jpg",
+      "alt": "View straight down on a hedged roof terrace with wooden tables and chairs"
+    },
+    {
+      "src": "./16.jpg",
+      "alt": "Glass-roofed entrance of Potsdamer Platz station in Berlin seen from above, people crossing the square"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+---
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  gallery: CollectionEntry<'galleries'>;
+  /** Above the fold: load eagerly with high priority. */
+  priority?: boolean;
+}
+
+const { gallery, priority = false } = Astro.props;
+const { title, cover, coverAlt } = gallery.data;
+---
+
+<a href={`/${gallery.id}`} class="cover">
+  <Image
+    src={cover}
+    alt={coverAlt}
+    format="webp"
+    quality={82}
+    width={Math.min(1600, cover.width)}
+    widths={[640, 1024, 1600]}
+    sizes="(max-width: 640px) 100vw, 50vw"
+    loading={priority ? 'eager' : 'lazy'}
+    fetchpriority={priority ? 'high' : undefined}
+  />
+  <h2 class="title">{title}</h2>
+</a>
+
+<style>
+  .cover {
+    position: relative;
+    display: block;
+    /* the four imported covers are all cropped to this ratio */
+    aspect-ratio: 1089 / 852;
+    overflow: hidden;
+    background: var(--border);
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: filter 0.3s ease, transform 0.6s ease;
+  }
+
+  /* scrim so the title stays readable on bright photos */
+  .cover::after {
+    content: '';
+    position: absolute;
+    inset: 45% 0 0;
+    background: linear-gradient(to top, rgb(0 0 0 / 0.6), rgb(0 0 0 / 0));
+    pointer-events: none;
+  }
+
+  .title {
+    position: absolute;
+    z-index: 1;
+    left: clamp(1rem, 2.5vw, 2rem);
+    bottom: clamp(0.9rem, 2.2vw, 1.75rem);
+    font-size: clamp(1rem, 1.6vw, 1.375rem);
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .cover:hover img,
+  .cover:focus-visible img {
+    filter: brightness(0.85);
+    transform: scale(1.02);
+  }
+
+  .cover:focus-visible {
+    outline-offset: -4px;
+    border-radius: 0;
+  }
+</style>

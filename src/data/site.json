@@ -1,0 +1,45 @@
+{
+  "name": "Peter Kurzok",
+  "tagline": "Software Engineer. Photographer. Musician. Dad.",
+  "description": "In my day job I work as a Software Engineer. But I'm also a part time Photographer. In my free time I'm a Musician. But most important I'm trying to be the coolest Dad.",
+  "email": "photo@peterkurzok.de",
+  "appsUrl": "https://apps.peterkurzok.de",
+  "channels": [
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "handle": "@filmaniac",
+      "href": "https://www.instagram.com/filmaniac/"
+    },
+    {
+      "id": "flickr",
+      "label": "Flickr",
+      "handle": "filmaniac",
+      "href": "https://www.flickr.com/photos/filmaniac"
+    },
+    {
+      "id": "500px",
+      "label": "500px",
+      "handle": "peterkurzok",
+      "href": "https://500px.com/peterkurzok"
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "handle": "Peter Kurzok",
+      "href": "https://de.linkedin.com/in/peter-kurzok-50a33288"
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "handle": "pkurzok",
+      "href": "https://github.com/pkurzok"
+    },
+    {
+      "id": "mail",
+      "label": "Email",
+      "handle": "photo@peterkurzok.de",
+      "href": "mailto:photo@peterkurzok.de"
+    }
+  ]
+}

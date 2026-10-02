@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import GalleryCover from '../components/GalleryCover.astro';
+import site from '../data/site.json';
+
+const galleries = (await getCollection('galleries')).sort((a, b) => a.data.order - b.data.order);
+---
+
+<Base title={`${site.name} Photography`} description={site.description}>
+  <div class="container">
+    <h1 class="sr-only">{site.name} Photography</h1>
+    <div class="covers">
+      {galleries.map((gallery, i) => <GalleryCover gallery={gallery} priority={i < 2} />)}
+    </div>
+  </div>
+</Base>
+
+<style>
+  .covers {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--gutter);
+    padding-top: var(--gutter);
+  }
+
+  @media (max-width: 640px) {
+    .covers {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+</style>

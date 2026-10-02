@@ -1,0 +1,88 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import portrait from '../assets/portrait.jpg';
+import site from '../data/site.json';
+
+const appsLabel = new URL(site.appsUrl).host;
+---
+
+<Base title={`About — ${site.name}`} description={site.description}>
+  <div class="container about">
+    <Image
+      class="portrait"
+      src={portrait}
+      alt={`Portrait of ${site.name}`}
+      format="webp"
+      quality={82}
+      width={1440}
+      widths={[480, 720, 1440]}
+      sizes="(max-width: 752px) calc(100vw - 2rem), 720px"
+      loading="eager"
+      fetchpriority="high"
+    />
+    <h1>{site.name}</h1>
+    <p class="tagline">{site.tagline}</p>
+    <p class="apps">
+      By day I build apps. You can find them at <a href={site.appsUrl} rel="me">{appsLabel}</a>.
+    </p>
+    <a class="button" href={`mailto:${site.email}`}>Contact</a>
+  </div>
+</Base>
+
+<style>
+  .about {
+    max-width: calc(720px + 2 * var(--gutter));
+    padding-top: var(--gutter);
+    text-align: center;
+  }
+
+  .portrait {
+    width: 100%;
+    margin-bottom: clamp(1.75rem, 5vw, 2.5rem);
+  }
+
+  h1 {
+    font-size: clamp(1.75rem, 5vw, 2.25rem);
+  }
+
+  .tagline {
+    margin: 0.6rem 0 0;
+    font-size: 1.125rem;
+  }
+
+  .apps {
+    margin: 1.5rem 0 0;
+    font-size: 0.9375rem;
+    color: var(--text-muted);
+  }
+
+  .apps a {
+    text-decoration-color: color-mix(in srgb, currentColor 45%, transparent);
+    text-underline-offset: 3px;
+  }
+
+  .apps a:hover,
+  .apps a:focus-visible {
+    color: var(--text);
+  }
+
+  .button {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.7rem 2rem;
+    border: 1px solid var(--text);
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .button:hover,
+  .button:focus-visible {
+    background: var(--text);
+    color: var(--bg);
+  }
+</style>

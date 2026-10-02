@@ -1,0 +1,31 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  title="Page not found — Peter Kurzok"
+  description="This page does not exist on peterkurzok.de."
+>
+  <div class="container prose notfound">
+    <p class="code">404</p>
+    <h1>This page does not exist</h1>
+    <p>The link may be old, or it may have a typo in it.</p>
+    <p><a href="/">← Back to the galleries</a></p>
+  </div>
+</Base>
+
+<style>
+  .notfound {
+    padding-block: clamp(4rem, 14vw, 8rem);
+  }
+
+  .code {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    margin: 0 0 0.75rem;
+    color: var(--text-muted);
+    opacity: 0.5;
+  }
+</style>

@@ -1,0 +1,15 @@
+---
+// PhotoSwipe on the #gallery grid. Progressive enhancement: without JavaScript every
+// tile stays a plain link to its largest rendition.
+import 'photoswipe/style.css';
+---
+
+<script>
+  import PhotoSwipeLightbox from 'photoswipe/lightbox';
+
+  new PhotoSwipeLightbox({
+    gallery: '#gallery',
+    children: 'a',
+    pswpModule: () => import('photoswipe'),
+  }).init();
+</script>

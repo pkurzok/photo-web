@@ -1,0 +1,112 @@
+{
+  "title": "Landscapes",
+  "order": 2,
+  "cover": "./cover.jpg",
+  "coverAlt": "Milky Way above silhouetted pine trees and a curving boardwalk",
+  "images": [
+    {
+      "src": "./01.jpg",
+      "alt": "Silhouette of a single tree under a starry sky with a purple aurora glow on the horizon"
+    },
+    {
+      "src": "./02.jpg",
+      "alt": "Milky Way above silhouetted pine trees, a wooden boardwalk winding towards them"
+    },
+    {
+      "src": "./03.jpg",
+      "alt": "Bare tree on a grassy mound, silhouetted against the last light after sunset"
+    },
+    {
+      "src": "./04.jpg",
+      "alt": "Beach and calm sea at night under a starry sky with drifting clouds"
+    },
+    {
+      "src": "./05.jpg",
+      "alt": "Baltic beach at dusk under heavy clouds, framed by pine branches"
+    },
+    {
+      "src": "./06.jpg",
+      "alt": "Distant city skyline at night with motorway light trails, framed by blurred leaves"
+    },
+    {
+      "src": "./07.jpg",
+      "alt": "Aerial view straight down on two forest paths crossing between bare autumn trees"
+    },
+    {
+      "src": "./08.jpg",
+      "alt": "Mossy tree trunk with frosted orange leaves beside a forest track in winter"
+    },
+    {
+      "src": "./09.jpg",
+      "alt": "Frost-covered forest track leading into bare trees and fog"
+    },
+    {
+      "src": "./10.jpg",
+      "alt": "Camp fire in a fire basket at night, sparks rising between tripod poles and tents"
+    },
+    {
+      "src": "./11.jpg",
+      "alt": "Close-up of sparks rising from a fire at night"
+    },
+    {
+      "src": "./12.jpg",
+      "alt": "View from a wooden deck over outstretched feet in socks to a small lake and forest, a camp stove burning beside them"
+    },
+    {
+      "src": "./13.jpg",
+      "alt": "Two people standing on a small jetty in a still forest lake at blue hour, one holding up a fishing rod"
+    },
+    {
+      "src": "./14.jpg",
+      "alt": "Black-and-white aerial view of snow-covered terrain with a few trees and ski tracks"
+    },
+    {
+      "src": "./15.jpg",
+      "alt": "Rusting, moss-covered car wreck with open doors in a forest"
+    },
+    {
+      "src": "./16.jpg",
+      "alt": "Steering wheel and dashboard of an abandoned car, overgrown with moss in a forest"
+    },
+    {
+      "src": "./17.jpg",
+      "alt": "Snowy alpine chalets below a mountain range at sunset with glowing orange clouds"
+    },
+    {
+      "src": "./18.jpg",
+      "alt": "Wheat field at dawn under a dramatic sky, fog lying in the valley behind a line of trees"
+    },
+    {
+      "src": "./19.jpg",
+      "alt": "Sun setting behind a forest, the sky reflected in a calm lake"
+    },
+    {
+      "src": "./20.jpg",
+      "alt": "Small houseboat on a still lake at blue hour"
+    },
+    {
+      "src": "./21.jpg",
+      "alt": "Snow-covered mountain peaks above a layer of cloud, the sun breaking through haze"
+    },
+    {
+      "src": "./22.jpg",
+      "alt": "Narrow road running through a green valley between two mountains under a cloudy sky"
+    },
+    {
+      "src": "./23.jpg",
+      "alt": "Winding road with a dry-stone wall above a wide valley and hills under heavy clouds"
+    },
+    {
+      "src": "./24.jpg",
+      "alt": "Mont-Saint-Michel as a small lit silhouette on the horizon under a wide dusk sky"
+    },
+    {
+      "src": "./25.jpg",
+      "alt": "Wind turbines on distant hills behind a dark forest, rain falling from storm clouds"
+    },
+    {
+      "src": "./26.jpg",
+      "alt": "Looking up along a mossy tree trunk into bright green beech leaves"
+    }
+  ]
+}

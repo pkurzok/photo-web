@@ -1,0 +1,64 @@
+{
+  "title": "Events",
+  "order": 4,
+  "cover": "./cover.jpg",
+  "coverAlt": "Christmas tree with red and gold baubles and fairy lights, a blurred guest in pink light behind it",
+  "images": [
+    {
+      "src": "./01.jpg",
+      "alt": "High tables with white cloths and candles in front of warmly lit brick pillars"
+    },
+    {
+      "src": "./02.jpg",
+      "alt": "Guests in suits and dresses dancing and cheering under disco-ball light and chandeliers"
+    },
+    {
+      "src": "./03.jpg",
+      "alt": "Guests dancing in a long line, arms on each other’s shoulders, between banquet tables in pink light"
+    },
+    {
+      "src": "./04.jpg",
+      "alt": "Banquet tables set with glasses, napkins and red berry branches in blue and pink light"
+    },
+    {
+      "src": "./05.jpg",
+      "alt": "Empty hall with long set banquet tables, crystal chandeliers and a stage, lit in pink and blue"
+    },
+    {
+      "src": "./06.jpg",
+      "alt": "Decorated Christmas tree in front of a stage with blue spotlights"
+    },
+    {
+      "src": "./07.jpg",
+      "alt": "Christmas tree with red and gold baubles and fairy lights, a blurred guest in pink light behind it"
+    },
+    {
+      "src": "./08.jpg",
+      "alt": "Wine glasses and a small vase of red berries on a banquet table, stage lights blurred behind"
+    },
+    {
+      "src": "./09.jpg",
+      "alt": "White lounge sofas lit pink on a gallery, chandeliers and projection screens in the background"
+    },
+    {
+      "src": "./10.jpg",
+      "alt": "Bar tables and stools with candles and berry branches in front of pillars lit red and orange"
+    },
+    {
+      "src": "./11.jpg",
+      "alt": "Close-up of a table setting with wine glasses, a red candle and Christmas baubles"
+    },
+    {
+      "src": "./12.jpg",
+      "alt": "View from the gallery onto long tables of dinner guests, light strands and a disco ball hanging from the ceiling"
+    },
+    {
+      "src": "./13.jpg",
+      "alt": "Wide view from the gallery of a hall with seated dinner guests, a stage and hanging light strands in pink and purple"
+    },
+    {
+      "src": "./14.jpg",
+      "alt": "Red candle glasses, baubles and a berry branch on a table glowing in pink light"
+    }
+  ]
+}

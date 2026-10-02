@@ -1,0 +1,100 @@
+---
+import type { GetImageResult } from 'astro';
+
+export interface Tile {
+  thumb: GetImageResult;
+  large: GetImageResult;
+  width: number;
+  height: number;
+  alt: string;
+}
+
+interface Props {
+  tiles: Tile[];
+}
+
+const { tiles } = Astro.props;
+
+// Row heights in px — keep in sync with --row-h below. A tile is `ratio × row height`
+// wide before it grows to fill its row, hence the headroom factor.
+const ROW_SMALL = 224;
+const ROW_LARGE = 288;
+const GROW = 1.4;
+
+const sizes = (ratio: number) =>
+  `(min-width: 1024px) ${Math.round(ratio * ROW_LARGE * GROW)}px, ` +
+  `min(100vw, ${Math.round(ratio * ROW_SMALL * GROW)}px)`;
+---
+
+<div id="gallery" class="grid">
+  {
+    tiles.map(({ thumb, large, width, height, alt }) => (
+      <a
+        href={large.src}
+        data-pswp-width={large.attributes.width}
+        data-pswp-height={large.attributes.height}
+        data-pswp-srcset={large.srcSet.attribute}
+        style={`--ar: ${(width / height).toFixed(4)}`}
+      >
+        <img
+          src={thumb.src}
+          srcset={thumb.srcSet.attribute}
+          sizes={sizes(width / height)}
+          alt={alt}
+          width={width}
+          height={height}
+          loading="lazy"
+          decoding="async"
+        />
+      </a>
+    ))
+  }
+</div>
+
+<style>
+  /* Justified rows without JS: every tile's basis and grow factor are proportional to
+     its aspect ratio, so all tiles in a row end up the same height. */
+  #gallery.grid {
+    --row-h: 14rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  @media (min-width: 1024px) {
+    #gallery.grid {
+      --row-h: 18rem;
+    }
+  }
+
+  .grid a {
+    flex: calc(var(--ar) * 100) 1 calc(var(--ar) * var(--row-h));
+    aspect-ratio: var(--ar);
+    overflow: hidden;
+    background: var(--border);
+  }
+
+  .grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: filter 0.2s ease;
+  }
+
+  .grid a:hover img {
+    filter: brightness(0.88);
+  }
+
+  .grid a:focus-visible {
+    outline-offset: -3px;
+    border-radius: 0;
+  }
+
+  /* keeps a short last row left-aligned */
+  .grid::after {
+    content: '';
+    flex-grow: 1e5;
+  }
+</style>
