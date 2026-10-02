@@ -404,10 +404,10 @@ The site is reachable at https://peterkurzok.de, `www` redirects, mail keeps wor
 and the Adobe site can be retired.
 
 **Tasks**:
-- [ ] Create GitHub repo `pkurzok/photo-web`, push `main`.
+- [x] Create GitHub repo `pkurzok/photo-web`, push `main`.
 - [ ] Cloudflare dashboard → Pages → connect the repo: build command `npm run build`, output `dist`, env `NODE_VERSION=22`. Wait for the first deploy; smoke-test `https://photo-web.pages.dev`.
 - [x] Write `scripts/dns-snapshot.sh <nameserver> <outfile>`: a `dig +noall +answer +nottlid` loop over `peterkurzok.de` (A/AAAA/MX/TXT/NS) and `www`, `apps`, `blog`, `playtales`, `sig1._domainkey` (A/CNAME), output sorted so two snapshots diff cleanly (SOA deliberately excluded, it always differs).
-- [ ] Run `scripts/dns-snapshot.sh ns.inwx.de docs/dns/2026-inwx-before.txt` and commit it.
+- [x] Run `scripts/dns-snapshot.sh ns.inwx.de docs/dns/2026-inwx-before.txt` and commit it.
 - [ ] Cloudflare → Domains → Onboard `peterkurzok.de` (Free plan). Let it scan, then compare against the snapshot and add anything missing: MX ×2, the three TXT records, `sig1._domainkey` CNAME, `apps`/`blog`/`playtales` CNAMEs. Set every record to **DNS only** (grey cloud). Keep the Adobe `A` records for apex and `www` for now.
 - [ ] At INWX: confirm DNSSEC is off for the domain, then replace the nameservers with the two Cloudflare nameservers shown in the dashboard. Wait for "Active" (email from Cloudflare).
 - [ ] Verify via `dig @1.1.1.1` and `dig @8.8.8.8` that MX, SPF TXT, DKIM CNAME and the three subdomain CNAMEs resolve exactly as in the snapshot; send one test mail to and from an `@peterkurzok.de` address.
@@ -467,13 +467,24 @@ During implementation, document user feedback, problems, and decisions here.
   expected.
 - **Phase 4 – privacy contact** uses `imprint@peterkurzok.de` (app-site used
   `apps@…`, which does not fit here).
-- **Phase 5 – DNS snapshot not taken yet:** `dig` cannot reach any DNS server from the
-  agent sandbox. `scripts/dns-snapshot.sh` is written but untested against a live
-  server; run it from a normal shell.
+- **Phase 5 – DNS snapshot over TCP:** the first runs failed because this network blocks
+  UDP port 53 to external servers (not an agent-sandbox issue, as first assumed).
+  `dns-snapshot.sh` now uses `dig +tcp`; `docs/dns/2026-inwx-before.txt` holds 18
+  records. For the later `dig @1.1.1.1` / `@8.8.8.8` checks use `+tcp` as well. DNSSEC
+  confirmed off (no DS record).
 - **Visual check:** headless Chromium screenshots of home, landscapes, about (light/dark,
   390 px and 1440–1600 px) look as designed. On phones a portrait photo that ends up
   alone in a row fills the full width (tall tile) — inherent to the CSS-only grid.
-- **2026-10-02:** manual verification of Phases 2–4 confirmed by Peter; initial commit made on `main`. Phase 5 open.
+- **2026-10-02:** manual verification of Phases 2–4 confirmed by Peter; initial commit made on `main`. Public repo https://github.com/pkurzok/photo-web created and `main` pushed (over HTTPS with the `gh` token — SSH keys are not reachable from the agent sandbox; `origin` stays the SSH URL).
+
+- **Home masthead added on request (2026-10-02, after the Phase 2–4 sign-off):** the live
+  site has a 30vh masthead on the home page — a black-and-white mountain photo with the
+  white line "Portraits, Landscapes, Architecture, Events". The site analysis missed it
+  because the image is only referenced from Adobe's stylesheet. Now imported to
+  `src/assets/masthead.jpg` (1272×709, the largest Adobe serves), text in
+  `site.json` (`masthead`), rendered by `src/components/Masthead.astro` below the sticky
+  header on `/` only. Not replicated: Adobe's fixed-position effect (content scrolling
+  over the image).
 
 ## References
 

@@ -1,0 +1,18 @@
+apps.peterkurzok.de.	IN	CNAME	app-site-2b3.pages.dev.
+blog.peterkurzok.de.	IN	CNAME	blog-52g.pages.dev.
+peterkurzok.de.		IN	A	151.101.128.119
+peterkurzok.de.		IN	A	151.101.192.119
+peterkurzok.de.		IN	MX	10 mx01.mail.icloud.com.
+peterkurzok.de.		IN	MX	10 mx02.mail.icloud.com.
+peterkurzok.de.		IN	NS	ns.inwx.de.
+peterkurzok.de.		IN	NS	ns2.inwx.de.
+peterkurzok.de.		IN	NS	ns3.inwx.de.
+peterkurzok.de.		IN	NS	ns4.inwx.de.
+peterkurzok.de.		IN	NS	ns5.inwx.de.
+peterkurzok.de.		IN	TXT	"apple-domain=fxYMz0AENSeA7A6e"
+peterkurzok.de.		IN	TXT	"google-site-verification=k0ws1QnwgvFo6azHG7-XDp0CyDLN4bWA67yNqyPRowQ"
+peterkurzok.de.		IN	TXT	"v=spf1 include:icloud.com ~all"
+playtales.peterkurzok.de. IN	CNAME	playtales-web.pages.dev.
+sig1._domainkey.peterkurzok.de.	IN CNAME sig1.dkim.peterkurzok.de.at.icloudmailadmin.com.
+www.peterkurzok.de.	IN	A	151.101.128.119
+www.peterkurzok.de.	IN	A	151.101.192.119

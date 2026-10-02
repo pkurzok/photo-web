@@ -5,7 +5,8 @@
 #   scripts/dns-snapshot.sh <nameserver> <outfile>
 #   scripts/dns-snapshot.sh ns.inwx.de docs/dns/2026-inwx-before.txt
 #
-# TTLs are stripped and the output is sorted. SOA is left out on purpose (it always
+# Queries go over TCP (some networks block UDP port 53 to external servers). TTLs are
+# stripped and the output is sorted. SOA is left out on purpose (it always
 # differs between providers). Only records owned by the zone are kept, so the A records
 # a resolver appends behind a CNAME to *.pages.dev do not show up as noise.
 set -euo pipefail
@@ -15,7 +16,7 @@ out="${2:?usage: dns-snapshot.sh <nameserver> <outfile>}"
 zone="peterkurzok.de"
 
 query() {
-  dig +noall +answer +nottlid "@$ns" "$1" "$2" || {
+  dig +tcp +noall +answer +nottlid "@$ns" "$1" "$2" || {
     echo "dig @$ns $1 $2 failed — nothing written" >&2
     exit 1
   }
