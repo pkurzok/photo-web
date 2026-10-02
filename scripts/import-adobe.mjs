@@ -78,7 +78,8 @@ async function download(url, target, key, rendition) {
 
 // --- galleries -------------------------------------------------------------------
 
-const covers = projectCovers(await fetchPage(''));
+const home = await fetchPage('');
+const covers = projectCovers(home);
 if (covers.length === 0) throw new Error('no project covers found on the home page');
 
 for (const cover of covers) {
@@ -110,6 +111,15 @@ const about = await fetchPage('about');
 const portrait = about.match(new RegExp(`class="js-lightbox" data-src="(${CDN}\\?h=[0-9a-f]+)"`));
 if (!portrait) throw new Error('portrait not found on /about');
 await download(portrait[1], 'src/assets/portrait.jpg', 'portrait.jpg', null);
+
+// --- home masthead (background image, only referenced from the site stylesheet) ---
+
+const stylesheet = home.match(new RegExp(`<link[^>]+href="(${CDN}\\.css\\?h=[0-9a-f]+)"`));
+if (!stylesheet) throw new Error('site stylesheet not found on the home page');
+const css = await (await fetch(stylesheet[1], { headers: { 'User-Agent': UA } })).text();
+const masthead = css.match(new RegExp(`\\.masthead\\s*\\{[^}]*background-image:\\s*url\\("(${CDN}_rwc_[\\dx]+x(\\d+)\\.\\w+\\?h=[0-9a-f]+)"\\)`));
+if (!masthead) throw new Error('masthead background not found in the site stylesheet');
+await download(masthead[1], 'src/assets/masthead.jpg', 'masthead.jpg', Number(masthead[2]));
 
 // --- favicons --------------------------------------------------------------------
 

@@ -68,13 +68,15 @@ Renditions: thumbnails 480/960/1440 px, lightbox 1440/1920/2560 px, all WebP at 
 JavaScript ([PhotoSwipe](https://photoswipe.com), bundled locally); without it every
 thumbnail is a plain link to its largest rendition.
 
-Site-wide texts and links (tagline, email, social profiles, apps link) live in
-`src/data/site.json`.
+Site-wide texts and links (home masthead line, tagline, email, social profiles, apps
+link) live in `src/data/site.json`. The masthead photo is `src/assets/masthead.jpg`, the
+About portrait `src/assets/portrait.jpg`.
 
 ## Import from Adobe Portfolio
 
 `npm run import` (`scripts/import-adobe.mjs`) reads the live Adobe Portfolio pages and
-downloads every gallery image, the four covers, the About portrait and the favicons at
+downloads every gallery image, the four covers, the home masthead, the About portrait
+and the favicons at
 the largest rendition the Adobe CDN serves. It was a one-off for the migration and only
 works while the Adobe site is still online.
 

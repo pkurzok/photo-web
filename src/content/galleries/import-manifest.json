@@ -482,6 +482,13 @@
     "width": 3840,
     "height": 3002
   },
+  "masthead.jpg": {
+    "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/957ba4ae-df02-4911-8a46-24358a573dc7_rwc_8x0x1272x709x4096.jpeg?h=cc7e0a4ca5c06b0c6a6af6b31abcde7f",
+    "rendition": 4096,
+    "width": 1272,
+    "height": 709,
+    "bytes": 234006
+  },
   "portrait.jpg": {
     "source": "https://cdn.myportfolio.com/2776e258-926a-4471-8138-f31841424535/eff01046-ed82-4cc2-9dbc-ce5ca2f6414c.jpeg?h=fa8d990bc3671d92e82a2772d80b7782",
     "rendition": null,

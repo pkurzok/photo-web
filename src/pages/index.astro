@@ -2,12 +2,14 @@
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import GalleryCover from '../components/GalleryCover.astro';
+import Masthead from '../components/Masthead.astro';
 import site from '../data/site.json';
 
 const galleries = (await getCollection('galleries')).sort((a, b) => a.data.order - b.data.order);
 ---
 
 <Base title={`${site.name} Photography`} description={site.description}>
+  <Masthead text={site.masthead} />
   <div class="container">
     <h1 class="sr-only">{site.name} Photography</h1>
     <div class="covers">
